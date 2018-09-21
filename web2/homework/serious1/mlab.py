@@ -1,10 +1,10 @@
 import mongoengine
 
-#mongodb://<dbuser>:<dbpassword>@ds157522.mlab.com:57522/c4e21-blog
+#mongodb://<dbuser>:<dbpassword>@ds261072.mlab.com:61072/web2_homework
 
-host = "ds157522.mlab.com"
-port = 57522
-db_name = "c4e21-blog"
+host = "ds261072.mlab.com"
+port = 61072
+db_name = "web2_homework"
 user_name = "Son Le"
 password = "leson1871995"
 
