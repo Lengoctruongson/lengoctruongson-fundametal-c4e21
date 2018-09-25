@@ -5,13 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Post_detail</title>
+    <link rel="stylesheet" href="../static/index.css">
 </head>
-<body>
-    <h3>{{ post.title }}</h3>
-    <div>{{ post.author }}</div>
-    <p>{{ post.content }}</p>
+<body id="background3">
+    <h1>POST DETAIL</h1>
+    <div>
+        <h3 class="list">{{ post.title }}</h3>
+        <img src="https://openclipart.org/image/2400px/svg_to_png/202776/pawn.png" alt="">
+        <div class="list">{{ post.author }}</div>
+        <img src="http://simpleicon.com/wp-content/uploads/note-7.png" alt="">
+        <p class="list">{{ post.content }}</p>
+        <p></p>
+    </div>
+    <a class="to none" href="/delete/{{ post.id }}">Delete post</a><br>
     <p></p>
-    <a href="/delete/{{ post.id }}">Xoa bai viet</a><br>
-    <a href="/update/{{ post.id }}">Cap nhat bai viet</a>
+    <a class="to none"href="/update/{{ post.id }}">Update post viet</a>
 </body>
 </html>

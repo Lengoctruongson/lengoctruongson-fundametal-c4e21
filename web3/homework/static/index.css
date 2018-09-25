@@ -1,0 +1,54 @@
+#background {
+    background-image: url(https://wallpaperbrowse.com/media/images/704532.jpg);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+
+.table {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px 10px 10px 10px;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    width: 300px;
+    background-color: rgba(255,255,255,0.6);
+}
+
+.list {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px 10px 10px 10px;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    width: 300px;
+    background-color: rgba(255,255,255,0.6);
+}
+
+#background2 {
+    background-image: url(https://projecturf.com/wp-content/uploads/Geometric-Background.jpg);
+}
+
+.none {
+    text-decoration: none;
+}
+
+.to {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: purple;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    background-color: rgba(226, 223, 17, 0.6);
+}
+
+#background3 {
+    background-image: url(https://images.pexels.com/photos/370799/pexels-photo-370799.jpeg?cs=srgb&dl=light-art-blue-370799.jpg&fm=jpg);
+    background-size: cover;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+}

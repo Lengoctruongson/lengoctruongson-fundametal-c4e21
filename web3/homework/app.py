@@ -31,6 +31,10 @@ def update(post_id):
         t = form['title']
         a = form['author']
         c = form['content']
+
+        # inc__like
+        # push__
+
         post.update(set__title=t, set__author=a, set__content=c)
         return redirect(url_for("posts"))
 
