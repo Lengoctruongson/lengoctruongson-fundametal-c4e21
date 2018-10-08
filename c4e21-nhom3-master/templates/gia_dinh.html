@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include 'meta-data.html' %}
+</head>
+<body>
+    <div class="menu ">
+        <a class="" style="color:white" href="{{ url_for('home') }}">MENU</a>
+    </div>
+    {% include 'navbar.html' %}
+    <div class="id_gia_dinh">
+        <img src="{{food.link_san_pham}}" alt="" style="padding-top:60px"><hr>
+        <strong>Nguyên liệu:</strong>
+        <br>
+        {% for item in food.nguyen_lieu%}
+            - 
+            {{item}}
+            <br>
+        {% endfor %}
+        <strong>Các bước thực hiện:</strong>
+        {% for item in food.cach_lam %}
+            <br>
+            {{item["mo_ta"]}}
+            <br>
+            <img src="{{item["link"]}}" alt="">
+            <br>
+        {%endfor%}
+    </div>   
+    
+    <div class="bg-dark" style="height:200px">
+            <div class="cuoi">
+                <div>
+                    <div class="chia_se">
+                    <span class="ban_be">Chia sẻ với bạn bè</span>
+                    <span>
+                    <a class="fb-share" href="#" onclick="
+                    window.open(
+                   'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent('http://127.0.0.1:5000/giadinh/{{ food.id }}'), 
+                   'facebook-share-dialog', 
+                   'width=626,height=436'); 
+                    return false;">
+                   <span class="fb-share-icon"></span><span class="fb-share-text">f</span>
+                   </a>
+                   </span>
+                </div>  
+            </div>
+                <div class="gioi_thieu">
+                    Giới Thiệu : 
+                </div>        
+                <div class="du_an"> 
+                    Dự Án Với Sự Góp Mặt Của : 
+                </div>
+                <div class="ten">    
+                    Lê Nhật Quang <br>
+                    Lê Ngọc Trường Sơn <br>
+                    Dương Thế Bách <br>
+                
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

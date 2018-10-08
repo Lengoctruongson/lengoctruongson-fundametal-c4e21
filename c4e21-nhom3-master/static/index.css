@@ -1,0 +1,257 @@
+body {
+    margin: 0px;
+}
+
+#navbar {
+    position: fixed;
+}
+
+.menu {
+    display: flex;
+    height: 70px;
+    flex-flow: column;
+    justify-content: center;
+    padding-left: 35px;
+    font-size: 1.3rem;
+    background: rgba(20, 20, 20, 0.788);
+}
+
+.menu > a {
+    text-decoration: none;
+}
+
+
+.thu_muc {
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 32px;
+    margin-top: 300px;
+    justify-content: space-around;
+    
+}
+
+.cap_doi {
+    font-size: 2rem;
+    display: flex;
+    width: 350px;
+    height: 350px;
+    background: #c7c3c3;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px #948e8e solid;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    text-decoration: none;
+    background-image: url(https://lh3.googleusercontent.com/NjDGNNRipbDk9DiZGM8HNlJaDEeCKEhU-dc864C2kg4b9ijHnFUtB33534a_ABH6aVBwhJNPyT6j8_tZogHRi6axrq2TWg=w725);
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    transition: 0.3s;
+    font-family: Oswald,Tahoma,sans-serif;
+    color: white;
+}
+.cap_doi:active{
+    color: black;
+}
+.cap_doi:hover {
+    background-image: url(https://lh3.googleusercontent.com/NjDGNNRipbDk9DiZGM8HNlJaDEeCKEhU-dc864C2kg4b9ijHnFUtB33534a_ABH6aVBwhJNPyT6j8_tZogHRi6axrq2TWg=w725);
+    width: 300px;
+    height: 300px;
+    margin: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.gia_dinh {
+    font-size: 2rem;
+    display: flex;
+    width: 350px;
+    height: 350px;
+    background: #c7c3c3;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px #948e8e solid;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    text-decoration: none;
+    background-image: url(http://sqlq1.edu.vn/img/image/%E1%BA%A2NH%20N%C4%82M%202016/Thang%206/1.jpg);
+    background-size: cover;
+    transition: 0.3s;
+    font-family: Oswald,Tahoma,sans-serif;
+    color: white;
+}
+.gia_dinh:hover {
+    background-image: url("http://sqlq1.edu.vn/img/image/%E1%BA%A2NH%20N%C4%82M%202016/Thang%206/1.jpg");
+    width: 300px;
+    height: 300px;
+    margin: 25px;
+    text-decoration: none;
+    color: white;
+}
+.gia_dinh:active{
+    color: black
+}
+
+.dip_le {
+    font-size: 2rem;
+    display: flex;
+    width: 350px;
+    height: 350px;
+    background: #c7c3c3;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px #948e8e solid;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    text-decoration: none;
+    background-image: url("http://tuyengiao.vn/Uploads/2016/8/29/Choquengaynayvn1.jpg");
+    background-size: cover;
+    transition: 0.3s;
+    font-family: Oswald,Tahoma,sans-serif;
+    color: white;
+}
+.dip_le:hover {
+    background-image: url("http://tuyengiao.vn/Uploads/2016/8/29/Choquengaynayvn1.jpg");
+    width: 300px;
+    height: 300px;
+    margin: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.dip_le:active{
+    color: black
+}
+#hinh_nen {
+    background-image: url(http://backgrounddep.com/uploads/images/30-hinh-nen-cac-van-go-dep-nhat-cho-desktop-1487493869-20.jpg);
+    background-size: cover;
+}
+
+.image {
+    height: 500px;
+    
+    background-image: url("https://afamilycdn.com/2017/1484644624512-0-0-1351-2163-crop-1484644639011.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cuoi {
+    margin-top: 200px;
+   
+    
+}
+.chu_1 {
+    color:white;
+    display: flex;
+    font-size: 2rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Charmonman', cursive;
+    justify-content: center;
+}
+.chu_2 {
+    color: white;
+    display: flex;
+    font-size: 1.4rem;
+    font-family: 'Charmonman', cursive;
+    justify-content: center;
+}
+.gioi_thieu {
+    
+    display: flex;
+    color: white;
+    font-size: 1.4rem;
+}
+.du_an {
+    color: white;
+    font-size: 1.3rem;
+}
+.ten {
+    color: white;
+    font-size: 1rem;
+}
+.id_cap_doi {
+    padding-left: 300px;
+    padding-top: 100px;
+   
+}
+.id_gia_dinh {
+    padding-left: 300px;
+    padding-top: 100px;
+}
+.id_ngay_le {
+    padding-left: 300px;
+    padding-top: 100px;
+}
+
+.d-block {
+    border: 1px brown solid;
+    border-radius: 10px;
+}
+
+.move {
+    background: white;
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    left:50px;
+    top:400px;
+}
+
+.carousel-item {
+    padding-top: 25px;
+}
+
+#cover_capdoi {
+    background-image: url(https://wallpaper-house.com/data/out/12/wallpaper2you_512221.png);
+    background-size: cover;
+}
+
+.fb-share {
+  position: relative;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  padding: 0 4px;
+  border: 1px solid #cad4e7;
+  border-radius: 50%;
+  background: #0b2b9c;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1;
+  text-decoration: none;
+  white-space: nowrap;
+  /* IE7 */
+  *display: inline;
+  *zoom: 1;
+}
+.fb-share:hover {
+  text-decoration: none;
+  border-color: #9dacce;
+}
+
+.fb-share-text {
+  text-decoration: none;
+  position: relative;
+  top: 2px;
+  right: -13px;
+}
+
+.chia_se {
+    color: white;
+    display: flex;
+    font-size: 1.4rem;
+    font-family: 'Charmonman', cursive;
+    justify-content: center;
+}
+
+.ban_be {
+    padding-top: 12px;
+    padding-right: 10px;
+}

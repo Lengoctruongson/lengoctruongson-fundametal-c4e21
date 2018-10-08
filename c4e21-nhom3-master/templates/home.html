@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include 'meta-data.html' %}
+</head>
+<body id="hinh_nen">
+    <!-- <div class="menu ">
+        <a class="" style="color:white" href="{{ url_for('home') }}">MENU</a>
+    </div> -->
+    {% include 'navbar.html' %}
+    <div class="image" style="padding-top:60px">
+        <div class="chu_1">VÀO BẾP THÔI NÀO !!!</div>
+        <div class="chu_2">Còn Gì Thú Vị Hơn Khi Thưởng Thức Những Món Ăn Do Chính Tay Ta Nấu</div>
+
+    </div>
+    <div class="thu_muc">
+        <a class="cap_doi " href="{{ url_for('capdoi') }}">MÓN ĂN CẶP ĐÔI</a>       
+        <a class="gia_dinh " href="{{ url_for('giadinh') }}">MÓN ĂN GIA ĐÌNH</a>
+        <a class="dip_le " href="{{ url_for('ngayle') }}">MÓN ĂN DIP LỄ</a>
+    </div>
+    <div class="bg-dark" style="height:150px">
+        <div class="cuoi">
+            <div class="gioi_thieu">
+                Giới Thiệu : 
+            </div>        
+            <div class="du_an"> 
+                Dự Án Với Sự Góp Mặt Của : 
+            </div>
+            <div class="ten">    
+                Lê Nhật Quang <br>
+                Lê Ngọc Trường Sơn <br>
+                Dương Thế Bách <br>
+                
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
