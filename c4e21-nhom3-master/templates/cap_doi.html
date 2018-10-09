@@ -3,11 +3,15 @@
 <head>
     {% include 'meta-data.html' %}
 </head>
-<body >
+<body class="body1">
     {% include 'navbar.html' %}
     <div class="id_cap_doi">
+
+        <div class="tieu_de">
+        <h1  style="color: black">{{ food.ten_mon }}</h5>
+        </div>
         
-        <img  src="{{food.link_san_pham}}" alt=""><br>
+        <img  class="hinh_anh" src="{{food.link_san_pham}}" alt=""><br>
         <strong>Nguyên liệu:</strong>
         <br>
         {% for item in food.nguyen_lieu%}
@@ -20,9 +24,10 @@
             <br>
             {{item["mo_ta"]}}
             <br>
-            <img src="{{item["link"]}}" alt="">
+            <img class="hinh_anh" src="{{item["link"]}}" alt="">
             <br>
         {%endfor%}
+        <div class="nguon">(Nguồn: Internet)</div>
     </div>
     
     <div class="bg-dark" style="height:200px">

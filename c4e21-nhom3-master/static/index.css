@@ -22,12 +22,16 @@ body {
 
 
 .thu_muc {
+    height: 500px;
+    background-image: url(http://backgrounddep.com/uploads/images/30-hinh-nen-cac-van-go-dep-nhat-cho-desktop-1487493869-20.jpg);
     display: flex;
     flex-flow: row;
-    margin-bottom: 32px;
-    margin-top: 300px;
+    margin-bottom: 100px;
+    margin-top: 100px;
     justify-content: space-around;
-    
+    align-items: center;
+    background-size: cover;
+    border-radius: 10px;
 }
 
 .cap_doi {
@@ -48,7 +52,9 @@ body {
     width: 350px;
     height: 350px;
     transition: 0.3s;
-    font-family: Oswald,Tahoma,sans-serif;
+    font-family: 'Charmonman', cursive;
+    font-weight: bold;
+    font-size: 1.6rem;
     color: white;
 }
 .cap_doi:active{
@@ -62,9 +68,6 @@ body {
     text-decoration: none;
     color: white;
 }
-
-
-
 
 .gia_dinh {
     font-size: 2rem;
@@ -82,7 +85,9 @@ body {
     background-image: url(http://sqlq1.edu.vn/img/image/%E1%BA%A2NH%20N%C4%82M%202016/Thang%206/1.jpg);
     background-size: cover;
     transition: 0.3s;
-    font-family: Oswald,Tahoma,sans-serif;
+    font-family: 'Charmonman', cursive;
+    font-weight: bold;
+    font-size: 1.6rem;
     color: white;
 }
 .gia_dinh:hover {
@@ -113,7 +118,9 @@ body {
     background-image: url("http://tuyengiao.vn/Uploads/2016/8/29/Choquengaynayvn1.jpg");
     background-size: cover;
     transition: 0.3s;
-    font-family: Oswald,Tahoma,sans-serif;
+    font-family: 'Charmonman', cursive;
+    font-weight: bold;
+    font-size: 1.6rem;
     color: white;
 }
 .dip_le:hover {
@@ -129,22 +136,17 @@ body {
     color: black
 }
 #hinh_nen {
-    background-image: url(http://backgrounddep.com/uploads/images/30-hinh-nen-cac-van-go-dep-nhat-cho-desktop-1487493869-20.jpg);
-    background-size: cover;
-}
-
-.image {
-    height: 500px;
-    
     background-image: url("https://afamilycdn.com/2017/1484644624512-0-0-1351-2163-crop-1484644639011.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
-.cuoi {
-    margin-top: 200px;
-   
-    
+
+.image {
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
 }
+
 .chu_1 {
     color:white;
     display: flex;
@@ -175,9 +177,11 @@ body {
     font-size: 1rem;
 }
 .id_cap_doi {
-    padding-left: 300px;
-    padding-top: 100px;
-   
+    box-shadow: 0 20px 20px 0 black, 0 20px 20px 0 black;
+    margin-left: 170px;
+    width: 1000px;
+    background-color: white;
+    padding: 100px 30px 20px 30px;
 }
 .id_gia_dinh {
     padding-left: 300px;
@@ -254,4 +258,40 @@ body {
 .ban_be {
     padding-top: 12px;
     padding-right: 10px;
+}
+
+.body1 {
+    background-color: grey;
+}
+
+.nguon {
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hinh_anh {
+    padding-left: 175px;
+    height: 400px;
+    width: 775px;
+    justify-self: center;
+}
+
+.tieu_de {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    font-family: 'Charmonman', cursive;
+}
+
+.comment {
+    font-family: 'Charmonman', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.end {
+    background-color: rgba(75, 73, 73, 0.6);
 }

@@ -3,13 +3,15 @@
 <head>
     {% include 'meta-data.html' %}
 </head>
-<body>
-    <!-- <div class="menu ">
-        <a class="" style="color:white" href="{{ url_for('home') }}">MENU</a>
-    </div> -->
+<body class="body1">
     {% include 'navbar.html' %}
-    <div class="id_ngay_le">
-        <img src="{{food.link_san_pham}}" alt="" style="padding-top:60px"><hr>
+    <div class="id_cap_doi">
+
+        <div class="tieu_de">
+        <h1  style="color: black">{{ food.ten_mon }}</h5>
+        </div>
+        
+        <img  class="hinh_anh" src="{{food.link_san_pham}}" alt=""><br>
         <strong>Nguyên liệu:</strong>
         <br>
         {% for item in food.nguyen_lieu%}
@@ -22,38 +24,39 @@
             <br>
             {{item["mo_ta"]}}
             <br>
-            <img src="{{item["link"]}}" alt="">
+            <img class="hinh_anh" src="{{item["link"]}}" alt="">
             <br>
         {%endfor%}
+        <div class="nguon">(Nguồn: Internet)</div>
     </div>
     
     <div class="bg-dark" style="height:200px">
-            <div class="cuoi">
-                <div>
-                    <div class="chia_se">
-                    <span class="ban_be">Chia sẻ với bạn bè</span>
-                    <span>
-                    <a class="fb-share" href="#" onclick="
-                    window.open(
-                   'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent('http://127.0.0.1:5000/ngayle/{{ food.id }}'), 
-                   'facebook-share-dialog', 
-                   'width=626,height=436'); 
-                    return false;">
-                   <span class="fb-share-icon"></span><span class="fb-share-text">f</span>
-                   </a>
-                   </span>
-                </div>  
+        <div class="cuoi">
+            <div>
+                <div class="chia_se">
+                <span class="ban_be">Chia sẻ với bạn bè</span>
+                <span>
+                <a class="fb-share" href="#" onclick="
+                window.open(
+               'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent('http://127.0.0.1:5000/ngayle/{{ food.id }}'), 
+               'facebook-share-dialog', 
+               'width=626,height=436'); 
+                return false;">
+               <span class="fb-share-icon"></span><span class="fb-share-text">f</span>
+               </a>
+               </span>
+            </div>  
+        </div>
+            <div class="gioi_thieu">
+                Giới Thiệu : 
+            </div>        
+            <div class="du_an"> 
+                Dự Án Với Sự Góp Mặt Của : 
             </div>
-                <div class="gioi_thieu">
-                    Giới Thiệu : 
-                </div>        
-                <div class="du_an"> 
-                    Dự Án Với Sự Góp Mặt Của : 
-                </div>
-                <div class="ten">    
-                    Lê Nhật Quang <br>
-                    Lê Ngọc Trường Sơn <br>
-                    Dương Thế Bách <br>
+            <div class="ten">    
+                Lê Nhật Quang <br>
+                Lê Ngọc Trường Sơn <br>
+                Dương Thế Bách <br>
                 
 
             </div>
@@ -61,3 +64,4 @@
     </div>
 </body>
 </html>
+
